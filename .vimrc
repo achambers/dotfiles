@@ -12,6 +12,8 @@ set background=dark
 let g:solarized_termtrans=1
 colorscheme solarized
 
+autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
+
 set statusline=\ "
 set statusline+=%1*%-25.80f%*\ " file name minimum 25, maxiumum 80 (right justified)
 set statusline+=%2*
