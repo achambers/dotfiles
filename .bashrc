@@ -17,3 +17,4 @@ PS1='\[\033[32m\]\u@\h:\[\033[1;34m\]\w\[\033[31m\]$(__git_ps1)\[\033[00m\]\$ '
 #End terminal prompt
 
 alias code='cd ~/Documents/code'
+alias blog='cd ~/Documents/achambers.github.io'
