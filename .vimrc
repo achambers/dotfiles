@@ -37,5 +37,5 @@ set statusline+=%4*%{fugitive#statusline()}%*\ " Fugitive
 set statusline+=%= " right align
 set statusline+=%8*%-14.(%l,%c%V%)\ %<%P%* " offset
 
-"set winheight=30
+set winheight=30
 "set winminheight=5
