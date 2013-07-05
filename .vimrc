@@ -9,8 +9,9 @@ map <C-n> :NERDTreeToggle<CR>
 syntax enable
 
 "solarized settings
-set background=dark
-let g:solarized_termtrans=1
+"set background=dark
+set background=light
+"let g:solarized_termtrans=1
 colorscheme solarized
 
 autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
