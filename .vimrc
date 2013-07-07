@@ -28,9 +28,9 @@ set statusline+=%r "read only flag
 set statusline+=%m "modified flag
 set statusline+=%w "preview flag
 set statusline+=%*\ "
-set statusline+=%3*[
-set statusline+=%{strlen(&ft)?&ft:'none'} " filetype
-set statusline+=]%*\ "
+"set statusline+=%3*[
+"set statusline+=%{strlen(&ft)?&ft:'none'} " filetype
+"set statusline+=]%*\ "
 set statusline+=%4*%{fugitive#statusline()}%*\ " Fugitive
 "set statusline+=%5*%{Rvm#statusline()}%*\ " RVM
 "set statusline+=%6*%{SyntasticStatuslineFlag()}%* " Syntastic Syntax Checking
@@ -39,3 +39,11 @@ set statusline+=%8*%-14.(%l,%c%V%)\ %<%P%* " offset
 
 set winheight=30
 "set winminheight=5
+
+nnoremap <C-J> <C-W><C-J>
+nnoremap <C-K> <C-W><C-K>
+nnoremap <C-L> <C-W><C-L>
+nnoremap <C-H> <C-W><C-H>
+
+set splitbelow
+set splitright
