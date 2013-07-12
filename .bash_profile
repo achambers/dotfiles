@@ -2,7 +2,7 @@ if [ -f ~/.bashrc ]; then
    source ~/.bashrc
 fi
 
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:$PATH
 PATH="/Applications/Postgres.app/Contents/MacOS/bin:$PATH"
 
 #Start Extend bash history size
