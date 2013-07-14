@@ -47,3 +47,5 @@ nnoremap <C-H> <C-W><C-H>
 
 set splitbelow
 set splitright
+
+nnoremap <F3> :NumbersToggle<CR>
