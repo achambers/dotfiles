@@ -49,3 +49,7 @@ set splitbelow
 set splitright
 
 nnoremap <F3> :NumbersToggle<CR>
+
+set expandtab
+set shiftwidth=2
+set softtabstop=2
