@@ -53,3 +53,8 @@ nnoremap <F3> :NumbersToggle<CR>
 set expandtab
 set shiftwidth=2
 set softtabstop=2
+
+"vim-javascript settings
+let g:html_indent_inctags = "html,body,head,tbody"
+let g:html_indent_script1 = "inc"
+let g:html_indent_style1 = "inc"
