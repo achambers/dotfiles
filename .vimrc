@@ -1,3 +1,8 @@
+let g:pathogen_disabled = []
+
+"Disable numbers.vim for now
+call add(g:pathogen_disabled, 'numbers.vim')
+
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
 syntax on
@@ -48,7 +53,8 @@ nnoremap <C-H> <C-W><C-H>
 set splitbelow
 set splitright
 
-nnoremap <F3> :NumbersToggle<CR>
+"Remap F3 to stop numbers.vim from chaning the line numbers
+"nnoremap <F3> :NumbersToggle<CR>
 
 set expandtab
 set shiftwidth=2
