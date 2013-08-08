@@ -40,3 +40,6 @@
 [submodule ".vim/bundle/vim-javascript"]
 	path = .vim/bundle/vim-javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule ".vim/bundle/vim-sparkup"]
+	path = .vim/bundle/vim-sparkup
+	url = https://github.com/tristen/vim-sparkup.git
