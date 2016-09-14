@@ -1,0 +1,7 @@
+alias code="cd /Users/aaron/Documents/code"
+alias ecd="cd /Users/aaron/Documents/code/ember-cli-deploy"
+alias k="cd /Users/aaron/Documents/code/kayako/frontend-cp"
+alias git=hub
+alias nom='npm cache clear && rm -rf node_modules && npm i'
+alias bom='bower cache clean && rm -rf bower_components && bower i'
+alias nombom='nom && bom'

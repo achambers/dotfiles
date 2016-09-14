@@ -1,0 +1,7 @@
+[alias]
+  s = status
+  b = branch
+
+[user]
+  name = Aaron Chambers
+  email = achambers@gmail.com
