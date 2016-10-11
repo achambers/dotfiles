@@ -1,5 +1,5 @@
 bindkey -v
 export KEYTIMEOUT=1
 
-export PATH="$HOME/.bin:$PATH"
+export PATH="$HOME/.bin:~/.yarn/bin:$PATH"
 eval "$(rbenv init - --no-rehash)"
