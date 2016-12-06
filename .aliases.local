@@ -1,7 +1,11 @@
 alias code="cd /Users/aaron/Documents/code"
 alias ecd="cd /Users/aaron/Documents/code/ember-cli-deploy"
-alias k="cd /Users/aaron/Documents/code/kayako/frontend-cp"
+alias k="cd /Users/aaron/Documents/code/kayako"
 alias git=hub
 alias nom='npm cache clear && rm -rf node_modules && npm i'
 alias bom='bower cache clean && rm -rf bower_components && bower i'
 alias nombom='nom && bom'
+
+alias stage-generic01='ssh -A 52.206.99.47 -t "ssh 10.200.129.224"'
+alias prod-generic01='ssh -A 52.206.244.28 -t "ssh 10.0.129.14"'
+alias prod-generic02='ssh -A 52.206.244.28 -t "ssh 10.0.129.175"'
