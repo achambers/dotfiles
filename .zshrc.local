@@ -3,3 +3,8 @@ export KEYTIMEOUT=1
 
 export PATH="$HOME/.bin:~/.yarn/bin:$PATH"
 eval "$(rbenv init - --no-rehash)"
+
+# change npm user
+function npmsu() {
+  cp "$HOME/.npmrc-$1" $HOME/.npmrc && echo "switched to $1"
+}
