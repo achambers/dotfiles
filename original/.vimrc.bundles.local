@@ -1,9 +1,0 @@
-Plug 'airblade/vim-gitgutter'
-Plug 'rstacruz/sparkup'
-Plug 'mustache/vim-mustache-handlebars'
-Plug 'pangloss/vim-javascript'
-Plug 'scrooloose/nerdtree'
-Plug 'scrooloose/nerdcommenter'
-Plug 'elixir-lang/vim-elixir'
-
-" Plug 'chriskempson/base16-vim'
