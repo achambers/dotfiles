@@ -1,3 +1,7 @@
 [user]
 	name = Aaron Chambers
 	email = aaron.chambers@hey.com
+[alias]
+	co = checkout
+	b = branch
+	s = status
