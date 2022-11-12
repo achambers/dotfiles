@@ -14,6 +14,8 @@ return require('packer').startup(function(use)
     run = ":TSUpdate"
   })
 
+  use({'nvim-lualine/lualine.nvim'})
+
   -- Colorscheme
   use("folke/tokyonight.nvim")
 end)
