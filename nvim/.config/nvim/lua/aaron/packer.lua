@@ -16,6 +16,13 @@ return require('packer').startup(function(use)
 
   use({'nvim-lualine/lualine.nvim'})
 
+  use({
+    'lewis6991/gitsigns.nvim',
+    config = function()
+      require('gitsigns').setup()
+    end
+  })
+
   -- Colorscheme
   use("folke/tokyonight.nvim")
   use({ 'rose-pine/neovim', as = 'rose-pine' })
