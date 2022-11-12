@@ -6,7 +6,13 @@ return require('packer').startup(function(use)
   use("wbthomason/packer.nvim")
 
   use("nvim-lua/plenary.nvim")
+  use("nvim-lua/popup.nvim")
   use("TimUntersberger/neogit")
+
+  use("nvim-telescope/telescope.nvim")
+  use("nvim-treesitter/nvim-treesitter", {
+    run = ":TSUpdate"
+  })
 
   -- Colorscheme
   use("folke/tokyonight.nvim")
