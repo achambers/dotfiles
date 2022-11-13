@@ -3,4 +3,5 @@
 alias vim="$VIM"
 alias dotFileInstall="$DOTFILES/install"
 alias bp="dotFileInstall && source ~/.zshrc"
-alias work="cd ~/Projects/intercom"
+alias cdw="cd ~/Projects/intercom"
+alias cdd="cd $DOTFILES"
