@@ -1,16 +1,14 @@
 export XDG_CONFIG_HOME=$HOME/.config
- 
 VIM="nvim"
- 
 PERSONAL=$XDG_CONFIG_HOME/personal
 
- source $PERSONAL/env
- for i in `find -L $PERSONAL`; do
-   if [ "$i" != "$PERSONAL/env" ]; then
-     source $i
-   fi
- done
-
-export DOTFILES=$HOME/.dotfiles
-
 export GIT_EDITOR=$VIM
+export DOTFILES=$HOME/.dotfiles
+export STOW_FOLDERS="nvim,personal,zsh,git"
+
+source $PERSONAL/env
+for i in `find -L $PERSONAL`; do
+  if [ "$i" != "$PERSONAL/env" ]; then
+    source $i
+  fi
+done
