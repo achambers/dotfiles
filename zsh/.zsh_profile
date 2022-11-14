@@ -1,14 +1,22 @@
 export XDG_CONFIG_HOME=$HOME/.config
 VIM="nvim"
 PERSONAL=$XDG_CONFIG_HOME/personal
+INTERCOM=$XDG_CONFIG_HOME/intercom
 
 export GIT_EDITOR=$VIM
 export DOTFILES=$HOME/.dotfiles
-export STOW_FOLDERS="nvim,personal,zsh,git"
+export STOW_FOLDERS="nvim,personal,intercom,zsh,git"
 
 source $PERSONAL/env
 for i in `find -L $PERSONAL`; do
   if [ "$i" != "$PERSONAL/env" ]; then
+    source $i
+  fi
+done
+
+source $INTERCOM/env
+for i in `find -L $INTERCOM`; do
+  if [ "$i" != "$INTERCOM/env" ]; then
     source $i
   fi
 done

@@ -1,0 +1,3 @@
+#!/usr/bin/env zsh
+
+export HOMEBREW_GITHUB_API_TOKEN=$(cat $HOME/.intercom_github_api_token | tr -d '\n')
