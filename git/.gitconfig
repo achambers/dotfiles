@@ -5,3 +5,4 @@
 	co = checkout
 	b = branch
 	s = status
+	f = fetch --all
