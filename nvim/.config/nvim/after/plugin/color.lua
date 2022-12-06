@@ -4,7 +4,8 @@
 -- 
 -- vim.cmd("colorscheme tokyonight")
 
-vim.g.my_colorscheme = "rose-pine"
+--vim.g.my_colorscheme = "rose-pine"
+vim.g.my_colorscheme = "tokyonight"
 
 require("catppuccin").setup({
   transparent_background = false,
