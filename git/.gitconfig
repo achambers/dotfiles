@@ -6,3 +6,4 @@
 	b = branch
 	s = status
 	f = fetch --all
+  pushf = push --force-with-lease

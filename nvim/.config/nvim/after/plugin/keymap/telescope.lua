@@ -11,6 +11,9 @@ end)
 nnoremap("<Leader>pf", function()
     require('telescope.builtin').find_files()
 end)
+nnoremap("<Leader>pg", function()
+    require('telescope.builtin').live_grep()
+end)
 
 nnoremap("<leader>pw", function()
     require('telescope.builtin').grep_string { search = vim.fn.expand("<cword>") }
